@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Green Tech Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <div class="logo">Green Tech Hub</div>
+      <div class="nav-links">
+        <a href="#hero">Trang chủ</a>
+        <a href="#solutions">Giải pháp</a>
+        <a href="#contact">Liên hệ</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="container hero-content">
+      <h1>Technology for a Greener Future</h1>
+      <p>
+        Green Tech Hub kết nối công nghệ và phát triển bền vững.
+      </p>
+      <a href="#contact" class="btn">Trở thành đối tác</a>
+    </div>
+  </section>
+
+  <section id="solutions">
+    <div class="container">
+      <h2 class="section-title">Giải pháp nổi bật</h2>
+      <div class="solutions-grid">
+
+        <div class="card">
+          <h3>Solar Energy</h3>
+          <p>Giải pháp năng lượng mặt trời giúp giảm chi phí điện.</p>
+        </div>
+
+        <div class="card">
+          <h3>Waste Management</h3>
+          <p>Hệ thống quản lý rác thải thông minh.</p>
+        </div>
+
+        <div class="card">
+          <h3>Smart Irrigation</h3>
+          <p>Tưới tiêu tự động tiết kiệm nước.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Đăng ký hợp tác</h2>
+
+      <div class="contact-wrapper">
+        <form id="partnerForm">
+
+          <div class="form-group">
+            <label>Họ và tên</label>
+            <input type="text" id="name" required>
+          </div>
+
+          <div class="form-group">
+            <label>Công ty</label>
+            <input type="text" id="company" required>
+          </div>
+
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" id="email" required>
+          </div>
+
+          <div class="form-group">
+            <label>Nội dung</label>
+            <textarea id="messageInput" required></textarea>
+          </div>
+
+          <button type="submit" class="btn submit-btn">Gửi</button>
+          <p id="message"></p>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Green Tech Hub</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
